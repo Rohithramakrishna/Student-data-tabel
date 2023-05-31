@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.resultComp{
+    height: 85vh;
+    width: 100%;
+}
+.resultComp article{
+    height: 85vh;
+    width: 98%;
+    border: 1px solid;
+    margin: 0 auto;
+}
+.resultComp>article>h4{
+    text-align: center;
+    display: block;
+    height: 50px;
+    background-color: black;
+    color: #fff;
+}
+.dropDownBar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+/* .dropDownBar:first-child{
+    flex-basis: 50%;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 100%;
+}
+.dropDownBar:last-child{
+    flex-basis: 30%;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 100%;
+} */
+.dropDownBar>div{
+    flex-basis: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: inherit;
+    height: inherit;
+}
+.dropDownBar select{
+       height: 30px;
+    width: 130px;
+    margin-left: 5px;
+}
+.dropDownBar>h4{
+        flex-basis: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 35px;
+    width: 100%;
+    background-color: blue;
+    color: white;
+    border-radius: 25px;
+}
+.resultComp table{
+    width: 99%;
+    margin: 0 auto;
+}
+.resultComp button{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+      border: none;
+    padding: 10px 20px;
+    background: none;
+    margin: 5px 0px 0px 6px
+}
+.resultComp button a{
+    text-decoration: none;
+    color: black;
+    margin-right: 5px;
+}
+.resultComp button svg{
+        font-size: 25px;
+}
+table,tr,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+table thead tr th{
+    padding: 10px;
+    color: white;
+    background-color: black;
+    text-transform: capitalize;
+    font-size: 10px;
+}
+table tbody tr td{
+    padding: 20px 5px;
+    font-size: 10px;
+    text-align: center;
+}
+/* .saveBlock{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+} */
+.saveIcon{
+  font-size: 20px;
+  color: green;
+  position: relative;
+  top: 10px;
+ left: 30px;
+}
